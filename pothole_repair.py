@@ -37,7 +37,6 @@ def _potholes_avoided(start_l: str, end_l: str) -> int:
             # i == 0
             end_potholes_avoided[1] = 1 if end_segment == POTHOLE else 0
 
-       
     return start_potholes_avoided, end_potholes_avoided
 
 def max_potholes(l1, l2):
